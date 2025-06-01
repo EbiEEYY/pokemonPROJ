@@ -1,0 +1,148 @@
+@import url(./reset.css);
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #f7df1eaa);
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.hero {
+  padding-top: 5%;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.hero__title {
+  align-items: center;
+}
+
+.box {
+}
+
+.card {
+  width: 230px;
+  height: 330px;
+  color: #0a0a09;
+  background-color: rgb(209, 203, 194);
+  padding: 10px;
+  border: 10px solid #0a0a09;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.card__img{
+  position: relative;
+  width: 115px;
+  height: 100px;
+}
+
+.stat{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.bac{
+    color: aliceblue;
+    background-color: #232220;
+    border: 1px solid #0a0a09;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+
+.like{
+  position: absolute;
+  display: none;
+}
+
+.card__text{
+}
+
+.card__title{
+  font-size: 30px;
+text-transform: uppercase;
+}
+.hp{
+font-weight: 700;
+} 
