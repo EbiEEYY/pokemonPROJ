@@ -10,3 +10,7 @@ export const getPokemon = async (pockemonName) => {
     alert("trouble");
   }
 };
+
+
+
+

@@ -9,4 +9,6 @@ export const searchPokemon = async(e) => {
     root.nameInput.value = ""
     const pokemonEl = createPokemonCard(pokemon)
     root.pokemonList.insertAdjacentHTML("beforeend", pokemonEl)
+    // const pokemonType = data.types.map((x) => x.type.name);
+    const pokemonType = await getPokemon(pokemonType)
 };

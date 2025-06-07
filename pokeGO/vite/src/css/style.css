@@ -78,7 +78,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-
 .hero {
   padding-top: 5%;
 }
@@ -86,12 +85,10 @@ button:focus-visible {
 .container {
   margin: 0 auto;
 }
+.stat
 
 .hero__title {
   align-items: center;
-}
-
-.box {
 }
 
 .card {
@@ -105,43 +102,36 @@ button:focus-visible {
   overflow: hidden;
 }
 
-.card__img{
-  position: relative;
-  width: 115px;
-  height: 100px;
-}
-
-.stat{
-display: flex;
-justify-content: space-between;
-align-items: center;
+.card__img {
 
 }
 
-.bac{
-    color: aliceblue;
-    background-color: #232220;
-    padding: 20px;
-    border-radius: 20px;
-    margin-top: 10%;
-    gap: 10px;
-    display: flex;
-    flex-direction: column;
-    height: 50%;
+.stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.like{
+.bac {
+  color: aliceblue;
+  background-color: #232220;
+  padding: 20px;
+  border-radius: 20px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+}
+
+.like {
   position: absolute;
   display: none;
 }
 
-.card__text{
-}
-
-.card__title{
+.card__title {
   font-size: 30px;
-text-transform: uppercase;
+  text-transform: uppercase;
 }
-.hp{
-font-weight: 700;
-} 
+.hp {
+  font-weight: 700;
+}
