@@ -5,8 +5,7 @@ import { searchPokemon } from "./js/searchPokemon.js";
 root.searchBtn.addEventListener("click", searchPokemon);
         
 
-// const abilities = data.abilities.map((x) => x.ability.name);
-// const types = data.types.map((x) => x.type.name);
+
 
 
 
