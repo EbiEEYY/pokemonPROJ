@@ -137,6 +137,10 @@ button:focus-visible {
   color: #580000;
 }
 
+.liked{
+  
+}
+
 .card__title {
   font-size: 30px;
   text-transform: uppercase;
