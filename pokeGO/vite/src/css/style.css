@@ -71,7 +71,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #dbb4b4;
 }
 button:focus,
 button:focus-visible {
@@ -85,9 +85,7 @@ button:focus-visible {
 .container {
   margin: 0 auto;
 }
-.stat
-
-.hero__title {
+.stat .hero__title {
   align-items: center;
 }
 
@@ -103,7 +101,8 @@ button:focus-visible {
 }
 
 .card__img {
-
+  width: 190px;
+  height: 135px;
 }
 
 .stat {
@@ -123,9 +122,19 @@ button:focus-visible {
   height: 50%;
 }
 
-.like {
-  position: absolute;
-  display: none;
+.card__like {
+  border: 1px solid #f15757;
+  color: rgb(227, 150, 150);
+}
+.card__like:hover {
+  transition: all 0.25s;
+  background-color: #f15757;
+  color: #0a0a09;
+}
+.card__like:focus,
+.card__like:focus-visible {
+  background-color: #f15757;
+  color: #580000;
 }
 
 .card__title {

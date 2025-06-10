@@ -10,7 +10,7 @@ export const createPokemonCard = (pokemon) => {
             <div class="bac">
              <p class="card__text type">${types}</p>
             <p class="card__text ability">ability: ${abilities}</p> 
+            <button class="card__like" id="like">❤</button>
             </div>
-            <button class="card__btn like"><img class="icon-heart" src="pokeGO/vite/src/svg/heart-like-svg" alt="like"></img></button>
           </li`;
 };
