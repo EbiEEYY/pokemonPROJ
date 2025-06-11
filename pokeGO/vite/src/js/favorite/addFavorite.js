@@ -1,11 +1,11 @@
 import { root } from "../root";
 
 
-export const addFavorite = async () => {
+export const addFavorite = async (e) => {
     const pokeLike = root.likePokemon.value
     pokeLike.addEventListener("click", (event) => {
-let id = event.target.dataset.pokemonId;
-console.log("ID покемона:", id);
+        let id = event.target.dataset.pokemonId;
+        console.log("ID покемона:", id);
 
 
     });
