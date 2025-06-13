@@ -137,8 +137,8 @@ button:focus-visible {
   color: #580000;
 }
 
-.liked{
-  
+.liked {
+  background-color: #5b1717;
 }
 
 .card__title {
@@ -147,4 +147,24 @@ button:focus-visible {
 }
 .hp {
   font-weight: 700;
+}
+
+.modal {
+  display: none;
+}
+.show {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(116, 108, 77, 0.997);
+  transition: 0.25s;
+}
+.modal__btn {
+  margin: 2%;
+}
+.modal__title {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 2%;
 }

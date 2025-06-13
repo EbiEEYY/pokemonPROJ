@@ -8,11 +8,16 @@
     <link rel="stylesheet" href="./src/css/style.css" />
   </head>
   <body>
+    <div class="modal">
+      <h2 class="modal__title">POKEMON HOME</h2>
+      <button class="modal__btn">back</button>
+      <ul class="hero__list" id="fav">
+        
+      </ul>
+    </div>
+
     <section class="hero">
       <div class="container">
-        <ul class="hero__list" id="fav">
-
-        </ul>
         <h1 class="hero__title">Pokemon</h1>
         <div class="box">
           <input
@@ -23,9 +28,7 @@
           />
           <button class="hero__btn" id="search-btn">TAP</button>
         </div>
-        <ul class="hero__list" id="pokemon-list">
-         
-        </ul>
+        <ul class="hero__list" id="pokemon-list"></ul>
       </div>
     </section>
     <footer class="footer">
@@ -33,6 +36,7 @@
         <button class="footer__btn" id="BTNlist">my pokemon</button>
       </div>
     </footer>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

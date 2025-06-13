@@ -1,7 +1,8 @@
+
 export const createPokemonCard = (pokemon) => {
   const types = pokemon.types.map((x) => x.type.name);
   const abilities = pokemon.abilities.map((x) => x.ability.name);
-  return `<li class="card">
+  return `<li data-id="${pokemon.id}" class="card">
             <div class="stat">
              <h3 class="card__title">${pokemon.name || "noname"}</h3>
             <p class="card__text hp">${pokemon.stats[0].base_stat}HP</p> 
@@ -13,4 +14,6 @@ export const createPokemonCard = (pokemon) => {
             <button class="card__like" id="like">❤</button>
             </div>
           </li`;
+          
 };
+
